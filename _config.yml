@@ -35,9 +35,9 @@ logoalt:
 # Repo list
 # List repos that you would like to appear on the homepage here
 repos:
-- name: vac-benefits-directory
+- name: find-benefits-and-services
   description: Explore benefits
-  url: https://github.com/cds-snc/vac-benefits-directory
+  url: https://github.com/cds-snc/find-benefits-and-services
 
 
 # Style Variables
