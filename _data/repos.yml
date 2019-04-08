@@ -1,8 +1,8 @@
 en:
-- name: vac-benefits-directory
+- name: find-benefits-and-services
   description: application code
-  url: https://github.com/veteransaffairscanada/vac-benefits-directory
+  url: https://github.com/cds-snc/find-benefits-and-services
 fr:
-- name: vac-benefits-directory
+- name: find-benefits-and-services
   description: application code
-  url: https://github.com/veteransaffairscanada/vac-benefits-directory
+  url: https://github.com/cds-snc/find-benefits-and-services
