@@ -11,7 +11,7 @@ var filesToCache = [
   // images
   '/assets/img/octocat.png',
   // pages
-  '/background/','/contact/','/content/','/contributing/','/features/','/home/','/technical/','/accueil/','/coordonnees/','/contenu/','/contribution/','/fonctions/','/renseignements-generaux/','/technique/',
+  '/background/','/contact/','/contributing/','/features/','/home/','/technical/','/accueil/','/coordonnees/','/contribution/','/fonctions/','/renseignements-generaux/','/technique/',
   // posts
   
 ];

@@ -5,9 +5,6 @@ en:
   background:
     name: "Background"
     url: "/background/"
-  content:
-    name: "Content"
-    url: "/content/"
   features:
     name: "Features"
     url: "/features/"
@@ -27,9 +24,6 @@ fr:
   background:
     name: "Renseignements généraux"
     url: "/renseignements-generaux/"
-  user-testing:
-    name: "Expérience utilisateur et test d’utilisabilité"
-    url: "/experience-utilisateur/"
   features:
     name: "Fonctions"
     url: "/fonctions/"
