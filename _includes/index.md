@@ -14,7 +14,7 @@ The application is typically hosted by individual departments, with features and
 
 Current instances of *Find benefits and services* include:
 
-* Veterans Affairs Canada - [https://benefits-prestations.veterans.gc.ca](https://benefits-prestations.veterans.gc.ca)
+* Veterans Affairs Canada - [https://benefits-prestations.veterans.gc.ca](https://benefits-avantages.veterans.gc.ca)
 
 {% if site.repos %}
   {% include repositories.html %}
