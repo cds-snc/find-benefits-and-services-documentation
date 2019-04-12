@@ -1,5 +1,5 @@
 en:
-  homepage-tag-line: "Help your users find benefits that meet their needs."
+  homepage-tag-line: "Help people find benefits that meet their needs."
   cds-snc: "Canadian Digital Service"
   cds-snc-url: "https://digital.canada.ca"
   hosting: "Hosted on"
@@ -10,7 +10,7 @@ en:
   homepage-slug: "/home/"
   site-name: "Find benefits and services"
 fr:
-  homepage-tag-line: "(fr) Help your users find benefits that meet their needs."
+  homepage-tag-line: "(fr) Help people find benefits that meet their needs."
   cds-snc: "Service numérique canadien"
   cds-snc-url: "https://numerique.canada.ca"
   hosting: "Hébergé dans"
