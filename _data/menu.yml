@@ -2,15 +2,15 @@ en:
   home:
     name: "Home"
     url: "/home/"
-  background:
-    name: "Background"
-    url: "/background/"
   features:
     name: "Features"
     url: "/features/"
   technical:
-    name: "Technical"
-    url: "/technical/"
+    name: "For developers"
+    url: "/for-developers/"
+  content:
+    name: "For content managers"
+    url: "/for-content-managers/"
   contributing:
     name: "Contributing and open source"
     url: "/contributing/"
@@ -21,15 +21,15 @@ fr:
   home:
     name: "Accueil"
     url: "/accueil/"
-  background:
-    name: "Renseignements généraux"
-    url: "/renseignements-generaux/"
   features:
     name: "Fonctions"
     url: "/fonctions/"
   technical:
     name: "Aperçu technique"
     url: "/technique/"
+  content:
+    name: "(Fr) For content managers"
+    url: "/fr-for-content-managers/"
   contributing:
     name: "Contribution et source ouverte"
     url: "/contribution/"

@@ -357,6 +357,9 @@ pre {
     padding: 10px;
 }
 
+td, th {
+    border: 1px solid grey
+}
 /*
 Post list
 ----------------------------------

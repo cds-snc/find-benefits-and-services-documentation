@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8">
+    <title>
+      
+        For content managers - VAC Benefits Directory
+      
+    </title>
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="/assets/css/normalize.css">
+    <link rel="stylesheet" href="/assets/css/main.css">
+    <link rel="stylesheet" href="/assets/css/syntax.css">
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+      <script src="/assets/js/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-102484926-9"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-102484926-9', { 'anonymize_ip': true });
+    </script>
+
+  </head>
+  <body>
+    <div class="container">
+      <header role="banner">
+        <div class="wrap">
+          
+          <h1 class="site-title"><a class="title-link" href="/home/">Find benefits and services</a></h1>
+          <h2 class="float-right"><a href="/content-managers-fr/">Français</a></h2>
+        </div>
+      </header>
+
+      <div class="wrap content">
+
+        <aside>
+  <p class="intro">Help your users find benefits that meet their needs.</p>
+  <a class="skip-link visuallyhidden focusable" href="#main">Skip to Main Content</a>
+  <nav class="sidebar-nav" role="navigation">
+    <ul>
+      
+          <li><a href="/home/">Home</a></li>
+      
+          <li><a href="/features/">Features</a></li>
+      
+          <li><a href="/for-developers/">For developers</a></li>
+      
+          <li><a href="/for-content-managers/">For content managers</a></li>
+      
+          <li><a href="/contributing/">Contributing and open source</a></li>
+      
+          <li><a href="/contact/">Contact</a></li>
+      
+    </ul>
+  </nav>
+</aside>
+
+        <section id="main" class="main-content" role="main">
+          <h2 class="page-title">For content managers</h2>
+
+<p>This documentation reflects how <a href="/for-developers/#airtable">Airtable</a> is configured to manage the content. Once your Airtable base is set up, you don’t need to be a developer to update content.</p>
+
+<p>If you don’t want to use Airtable to manage your content, <a href="/for-developers/#what-if-i-dont-want-to-use-airtable">that’s possible, too</a>. The following steps won’t apply if you don’t use Airtable.</p>
+
+<h3 id="changing-text-and-links-in-the-app">Changing text and links in the app</h3>
+
+<ol>
+  <li>Locate the text or hyperlink you want to change in the app</li>
+  <li>Copy the text to the clipboard</li>
+  <li>Look at the table below to determine which table and column you should make your change in. Click the link to the table.</li>
+  <li>In Airtable do a ctrl+f (Windows) or command+f (Mac) search on the page, and paste in the text you copied</li>
+  <li>Locate the row that contains the text you want to change</li>
+  <li>Enter in your new text in the English and French columns</li>
+</ol>
+
+<table>
+  <thead>
+    <tr>
+      <th>Text you want to change</th>
+      <th>Table</th>
+      <th>English Column Name</th>
+      <th>French Column Name</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Benefit name</td>
+      <td>benefits</td>
+      <td>benefitNameEn</td>
+      <td>benefitNameFr</td>
+    </tr>
+    <tr>
+      <td>one line description</td>
+      <td>benefits</td>
+      <td>oneLineDescriptionEn</td>
+      <td>oneLineDescriptionFr</td>
+    </tr>
+    <tr>
+      <td>Learn more link</td>
+      <td>benefits</td>
+      <td>benefitPageEn</td>
+      <td>benefitPageFr</td>
+    </tr>
+    <tr>
+      <td>important info in card header</td>
+      <td>benefits</td>
+      <td>noteEn</td>
+      <td>noteFr</td>
+    </tr>
+    <tr>
+      <td>see more content description</td>
+      <td>benefits</td>
+      <td>seeMoreSentenceEn</td>
+      <td>seeMoreSentenceFr</td>
+    </tr>
+    <tr>
+      <td>question text in benefits-directory</td>
+      <td>questions</td>
+      <td>display_text_english</td>
+      <td>display_text_french</td>
+    </tr>
+    <tr>
+      <td>question text in guided experience</td>
+      <td>questions</td>
+      <td>guided_experience_english</td>
+      <td>guided_experience_french</td>
+    </tr>
+    <tr>
+      <td>guided experience page title</td>
+      <td>questions</td>
+      <td>guided_experience_page_title_english</td>
+      <td>guided_experience_page_title_french</td>
+    </tr>
+    <tr>
+      <td>question tooltip text</td>
+      <td>questions</td>
+      <td>tooltip_english</td>
+      <td>tooltip_french</td>
+    </tr>
+    <tr>
+      <td>multiple choice option text</td>
+      <td>multipleChoiceOptions</td>
+      <td>display_text_english</td>
+      <td>display_text_french</td>
+    </tr>
+    <tr>
+      <td>guided experience breadcrumb/link text</td>
+      <td>multipleChoiceOptions</td>
+      <td>ge_breadcrumb_english</td>
+      <td>ge_breadcrumb_french</td>
+    </tr>
+    <tr>
+      <td>Checkbox options in guided experience and benefits-directory</td>
+      <td>needs</td>
+      <td>nameEn</td>
+      <td>nameFr</td>
+    </tr>
+    <tr>
+      <td>All other text</td>
+      <td>translations</td>
+      <td>English</td>
+      <td>French</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="changing-the-eligibility-criteria-for-a-benefit">Changing the eligibility criteria for a benefit</h3>
+
+<ol>
+  <li>Navigate to the <em>benefitEligibility</em> table</li>
+  <li>Each path is represented by values within columns which correspond to the questions in the <em>questions</em> table. The values which fill these columns correspond to values in the <em>multipleChoiceOptions</em> table.</li>
+  <li>Create a new row and add the benefit and the eligibility criteria.</li>
+  <li>If you wish to remove an eligibility path from a benefit, delete the corresponding row in the table.</li>
+</ol>
+
+<h3 id="adding-a-category-aka-need-or-checkbox-question-associating-it-with-a-benefit">Adding a category (aka need or checkbox question), associating it with a benefit</h3>
+
+<ol>
+  <li>Navigate to the <em>needs</em> table</li>
+  <li>Add a new row at the bottom and give the category an english name and french name</li>
+  <li>Select the cell under the benefits column and click <code class="highlighter-rouge">+</code></li>
+  <li>Start typing the names of the benefits you want the category to be associated with</li>
+</ol>
+
+<p>To change the benefits associated with an existing category, click the “expand” icon on the right of the cell and then you will have the option to either unlink existing records or link new ones.</p>
+
+<h3 id="how-to-add-multiple-choice-question-and-answers">How to add multiple choice question and answers</h3>
+
+<ol>
+  <li>Navigate to the <em>questions</em> table</li>
+  <li>Add a new row at the bottom, and give it a variable_name that describes the question (The multiple choice questions are ordered according to their order in the questions table, the needs checkbox question is always at the bottom).</li>
+  <li>Fill in the following french and english content: question text that will appear in benefits-directory, question text in guided experience, and guided experience page title. The french/english column names can be found in the table above.</li>
+  <li>Then navigate to the <em>multipleChoiceOptions</em> table</li>
+  <li>Add a new row for each multiple choice option you would like to appear under the new question.</li>
+  <li>Give each option a variable_name that describes it, as well as the english/french text the user will see, and the blue breadcrumb text within the guided experience (see table above for column names).</li>
+  <li>Select each “linked_question” cell, click +, and type/select the question variable_name you added in step 2.</li>
+  <li>To see your question displayed in the app, follow the steps for adding a new eligibility path that links to your new question. A question is only displayed if its answer effects the list of eligible benefits.</li>
+  <li>A developer will now need to add another page under <a href="https://github.com/cds-snc/find-benefits-and-services/blob/master/pages">pages/</a> for your question. An existing question page, such as <a href="https://github.com/cds-snc/find-benefits-and-services/blob/master/pages/patronAge.js">patronAge.js</a> can be used as a template. Before the new page is added, the app will crash when you attempt to answer the initial questions. However, you can still test your changes on the benefits directory page.</li>
+</ol>
+
+
+        </section>
+
+      </div><!-- /.wrap content -->
+
+      <footer role="contentinfo">
+        <div class="wrap">
+          <p>This project was built by the <a href="https://digital.canada.ca">Canadian Digital Service</a>.</p>
+          <p><a href="https://github.com/cds-snc/find-benefits-and-services-documentation">Contribute to this documentation.</a></p>
+          <p>Hosted on <a href="http://pages.github.com/">GitHub Pages</a>.</p>
+        </div><!--/.wrap -->
+      </footer>
+    </div> <!-- /.container -->
+    
+    </body>
+</html>
