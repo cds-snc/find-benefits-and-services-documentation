@@ -9,8 +9,8 @@ collections:
     permalink: /:path/
 
 # Title
-name: VAC Benefits Directory
-subtitle: Helping Veterans find relevant benefits
+name: Find benefits and services
+subtitle: Help people find benefits that meet their needs
 
 # When using this template with a project page set the baseurl to '/project-name'
 # For user/organization pages set this to an empty string
